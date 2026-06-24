@@ -10,3 +10,14 @@ Uma única linha contendo um número decimal representando a temperatura corpora
 
 Saída
 Uma única linha com a orientação: "Hypothermia", "Normal", ou "Fever", de acordo com a faixa da temperatura informada.
+
+Desafio 2
+Em uma clínica HealthTech, a triagem inicial dos pacientes é feita por um assistente virtual chamado MedBot. Ele recebe a temperatura corporal do paciente e precisa decidir rapidamente se o paciente deve ser encaminhado para avaliação médica imediata ou se pode aguardar na sala de espera. Para isso, MedBot utiliza uma regra simples: se a temperatura for maior ou igual a 37.5 graus Celsius, o paciente deve ser encaminhado imediatamente; caso contrário, pode aguardar. Sua tarefa é ajudar a equipe de tecnologia da clínica a programar essa decisão automática, utilizando estruturas condicionais básicas.
+
+Implemente um programa que leia a temperatura corporal de um paciente (um número decimal positivo representando graus Celsius) e imprima "Atendimento imediato" se a temperatura for maior ou igual a 37.5, ou "Aguardar" caso contrário. Não utilize bibliotecas externas. Considere que a entrada sempre será um valor válido e positivo.
+
+Entrada
+Uma única linha contendo um número decimal positivo representando a temperatura corporal em graus Celsius.
+
+Saída
+Uma única linha contendo a string "Atendimento imediato" ou "Aguardar", de acordo com a regra descrita.
