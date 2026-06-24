@@ -5,19 +5,30 @@ Em uma clínica HealthTech, a assistente virtual Vita ajuda pacientes a monitora
 
 Implemente um programa que leia uma linha contendo a temperatura corporal do paciente (em graus Celsius, com ponto decimal) e imprima a orientação adequada de acordo com as regras acima. Não utilize bibliotecas externas. Considere apenas valores válidos de temperatura.
 
-Entrada
+Entrada :
 Uma única linha contendo um número decimal representando a temperatura corporal em graus Celsius. O valor pode ter até uma casa decimal.
 
-Saída
+Saída :
 Uma única linha com a orientação: "Hypothermia", "Normal", ou "Fever", de acordo com a faixa da temperatura informada.
 
-Desafio 2
+# Desafio 2
 Em uma clínica HealthTech, a triagem inicial dos pacientes é feita por um assistente virtual chamado MedBot. Ele recebe a temperatura corporal do paciente e precisa decidir rapidamente se o paciente deve ser encaminhado para avaliação médica imediata ou se pode aguardar na sala de espera. Para isso, MedBot utiliza uma regra simples: se a temperatura for maior ou igual a 37.5 graus Celsius, o paciente deve ser encaminhado imediatamente; caso contrário, pode aguardar. Sua tarefa é ajudar a equipe de tecnologia da clínica a programar essa decisão automática, utilizando estruturas condicionais básicas.
 
 Implemente um programa que leia a temperatura corporal de um paciente (um número decimal positivo representando graus Celsius) e imprima "Atendimento imediato" se a temperatura for maior ou igual a 37.5, ou "Aguardar" caso contrário. Não utilize bibliotecas externas. Considere que a entrada sempre será um valor válido e positivo.
 
-Entrada
+Entrada :
 Uma única linha contendo um número decimal positivo representando a temperatura corporal em graus Celsius.
 
-Saída
+Saída :
 Uma única linha contendo a string "Atendimento imediato" ou "Aguardar", de acordo com a regra descrita.
+
+# Desafio 3
+Em uma clínica digital, a triagem inicial dos pacientes é feita por um assistente virtual chamado VitaBot. Ele recebe informações básicas sobre sintomas e, com base em regras simples, orienta o paciente sobre o próximo passo. Sua tarefa é ajudar VitaBot a decidir se o paciente deve ser encaminhado para um atendimento médico imediato, se pode aguardar uma consulta agendada ou se apenas recomenda repouso em casa. O objetivo é garantir que todos recebam a orientação correta de forma rápida e segura, usando estruturas condicionais para analisar a situação de cada paciente.
+
+Implemente um programa que, dado um sintoma informado pelo paciente, retorne a orientação adequada. Se o sintoma for "dor no peito" ou "falta de ar", o paciente deve ser orientado a procurar atendimento imediato. Se o sintoma for "febre" ou "tosse", a orientação é agendar uma consulta. Para qualquer outro sintoma, a recomendação é repouso em casa. Considere apenas um sintoma por vez, informado como uma única linha de texto.
+
+Entrada :
+Uma única linha contendo o sintoma relatado pelo paciente, em letras minúsculas e sem acentos.
+
+Saída :
+Uma única linha com a orientação: "atendimento imediato", "agendar consulta" ou "repouso em casa", conforme as regras descritas.
